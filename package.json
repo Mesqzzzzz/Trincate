@@ -1,0 +1,10 @@
+{
+  "name": "trincate",
+  "version": "1.0.0",
+  "scripts": {
+    "start-all": "concurrently \"npm start --prefix auth-service\" \"npm start --prefix meal-service\" \"npm start --prefix category-service\" \"npm start --prefix stats-service\" \"npm start --prefix notification-service\" \"npm start --prefix api-gateway\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

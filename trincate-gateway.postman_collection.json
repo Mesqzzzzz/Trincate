@@ -1,0 +1,133 @@
+{
+  "info": {
+    "name": "Trincate via API Gateway",
+    "_postman_id": "trincate-gateway",
+    "description": "Collection de endpoints placeholders via API Gateway (porta 3000)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth Service",
+      "item": [
+        {
+          "name": "POST /auth/register",
+          "request": {
+            "method": "POST",
+            "url": "http://localhost:3000/auth/register"
+          }
+        },
+        {
+          "name": "POST /auth/login",
+          "request": {
+            "method": "POST",
+            "url": "http://localhost:3000/auth/login"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Meal Service",
+      "item": [
+        {
+          "name": "GET /meals",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:3000/meals"
+          }
+        },
+        {
+          "name": "POST /meals",
+          "request": {
+            "method": "POST",
+            "url": "http://localhost:3000/meals"
+          }
+        },
+        {
+          "name": "PUT /meals/:id",
+          "request": {
+            "method": "PUT",
+            "url": "http://localhost:3000/meals/1"
+          }
+        },
+        {
+          "name": "DELETE /meals/:id",
+          "request": {
+            "method": "DELETE",
+            "url": "http://localhost:3000/meals/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Category Service",
+      "item": [
+        {
+          "name": "GET /categories",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:3000/categories"
+          }
+        },
+        {
+          "name": "POST /categories",
+          "request": {
+            "method": "POST",
+            "url": "http://localhost:3000/categories"
+          }
+        },
+        {
+          "name": "PUT /categories/:id",
+          "request": {
+            "method": "PUT",
+            "url": "http://localhost:3000/categories/1"
+          }
+        },
+        {
+          "name": "DELETE /categories/:id",
+          "request": {
+            "method": "DELETE",
+            "url": "http://localhost:3000/categories/1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stats Service",
+      "item": [
+        {
+          "name": "GET /stats/meals-by-category",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:3000/stats/meals-by-category"
+          }
+        },
+        {
+          "name": "GET /stats/total-calories",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:3000/stats/total-calories"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Notification Service",
+      "item": [
+        {
+          "name": "GET /notifications",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:3000/notifications"
+          }
+        },
+        {
+          "name": "POST /notifications",
+          "request": {
+            "method": "POST",
+            "url": "http://localhost:3000/notifications"
+          }
+        }
+      ]
+    }
+  ]
+}
