@@ -1,6 +1,16 @@
 # Trincate
 
-NPM RUN install-all para instalar as dependências de todos os serviços
-NPM RUN start-all para iniciar todos os serviços
+Trincate é uma aplicação Meal Planner baseada em arquitetura de microserviços, criada para ajudar utilizadores a pesquisar receitas, organizar refeições e gerir a sua alimentação de forma simples e eficiente.
+O projeto foi desenvolvido com foco em modularidade, escalabilidade e facilidade de manutenção, sendo ideal para estudantes, profissionais ou qualquer pessoa que queira planear as suas refeições semanalmente sem complicações.
 
-"trincate-gateway.postman_collection.json" é a coleção para testar os serviços
+## Deploy
+
+Para instalação das dependências e iniciar os serviços executa:
+
+```bash
+  npm run install-all
+```
+
+```bash
+  npm run start-all
+```
